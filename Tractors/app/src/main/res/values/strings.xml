@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Battle Tractors</string>
+    <string name="title_activity_activity_game">ActivityGame</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_menu">ActivityMenu</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_exit">Exit</string>
+
+    <string-array name="Level0">
+        <item>8888888888888</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>8888888888888</item>
+    </string-array>
+    <string-array name="Level1">
+        <item>888888888888888888888</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>200000000000000000002</item>
+        <item>888888888888888888888</item>
+    </string-array>
+    <string-array name="Level2">
+        <item>8888888888888</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2888880000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000888882</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>8888888888888</item>
+    </string-array>
+    <string-array name="Level3">
+        <item>8888888888888</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2007000000002</item>
+        <item>2000000007002</item>
+        <item>2000700000002</item>
+        <item>2000000000002</item>
+        <item>2088880888882</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2000000700002</item>
+        <item>2000000007002</item>
+        <item>2000700000002</item>
+        <item>2000000000002</item>
+        <item>8888888888888</item>
+    </string-array>
+    <string-array name="Level4">
+        <item>8888888888888</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2888888808882</item>
+        <item>2000000000002</item>
+        <item>2000000000002</item>
+        <item>2088880888882</item>
+        <item>2007000000002</item>
+        <item>2000000070002</item>
+        <item>2000070000002</item>
+        <item>2000000000882</item>
+        <item>2000000700002</item>
+        <item>2007007002002</item>
+        <item>2000000002002</item>
+        <item>8888888888888</item>
+    </string-array>
+    <string-array name="Level5">
+        <item>8888888888888</item>
+        <item>2000000700002</item>
+        <item>2000070000702</item>
+        <item>2000007008802</item>
+        <item>2070888070002</item>
+        <item>2000070007002</item>
+        <item>2070007008802</item>
+        <item>2000700007002</item>
+        <item>2070880700002</item>
+        <item>2000000888882</item>
+        <item>2007000007002</item>
+        <item>2008880700002</item>
+        <item>2070000000002</item>
+        <item>2000070000002</item>
+        <item>8888888888888</item>
+    </string-array>
+
+    <string name="title_activity_activity_settings">ActivitySettings</string>
+
+</resources>

@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.games.mygame.MainActivity">
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toLeftOf="@+id/textView7"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@+id/textView5"
+        android:layout_marginLeft="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Sound Level: "
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Music Level:"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_below="@+id/seekBar" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar2"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/seekBar"
+        android:layout_alignRight="@+id/seekBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Language:"
+        android:id="@+id/textView4"
+        android:textSize="20dp"
+        android:layout_below="@+id/seekBar2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  English"
+        android:id="@+id/radioButton"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/seekBar2" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Russian"
+        android:id="@+id/radioButton3"
+        android:textSize="20dp"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignLeft="@+id/seekBar2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/textView5"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/seekBar"
+        android:layout_alignLeft="@+id/textView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/textView6"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/seekBar2"
+        android:layout_alignLeft="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="10"
+        android:id="@+id/textView7"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/seekBar"
+        android:layout_alignParentRight="true"
+        android:layout_margin="6dp"
+        android:layout_marginRight="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="10"
+        android:id="@+id/textView8"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/seekBar2"
+        android:layout_alignLeft="@+id/textView7" />
+
+</RelativeLayout>
